@@ -1,7 +1,41 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "My new Victor-Hugo site"
+title = "Lakeview Plantation"
+
+# Landing Page theme from https://themes.gohugo.io/landing-page-hugo/
+theme = "landing-page"
+#theme = "hugo-strata-theme"
+
+[params]
+    description = "Lakeview Plantation Homeowners Association member site"
+    custom_css = ["css/local.css"]
+
+#[[params.social]]
+#    title = "email"
+#    icon = "envelope-o"
+#    url = "mailto:smurph7@emory.edu"
+#[[params.social]]
+#    title = "twitter"
+#    icon = "twitter"
+#    url = "https://twitter.com/SBootstrap"
+#[[params.social]]
+#    title = "github"
+#    icon = "github"
+#    url = "https://github.com/IronSummitMedia/startbootstrap"
+#[[params.social]]
+#    title = "linkedin"
+#    icon = "linkedin"
+#    url = "http://linkedin.com/in/yourusername"
+[[menu.main]]
+    name = "About"
+    url  = "about"
+    weight = 5
+
+[[menu.main]]
+    name = "Blog"
+    url  = "post/"
+    weight = 10
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
