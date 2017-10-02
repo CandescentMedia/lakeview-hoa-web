@@ -4,8 +4,6 @@ languageLang = "en"
 title = "Lakeview Plantation"
 
 # Landing Page theme from https://themes.gohugo.io/landing-page-hugo/
-#theme = "landing-page"
-#theme = "hugo-strata-theme"
 theme = "startbootstrap-clean-blog"
 
 [params]
