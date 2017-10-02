@@ -4,7 +4,7 @@ backend:
   repo: CandescentMedia/lakeview-hoa-web
   branch: master # Branch to update
 
-media_folder: "/site/media/uploads" # Media files will be stored here
+media_folder: "/site/content/media/uploads" # Media files will be stored here
 public_folder: "/media/uploads" # The src attribute for uploaded media
 
 collections:
