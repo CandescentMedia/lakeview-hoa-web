@@ -4,12 +4,14 @@ languageLang = "en"
 title = "Lakeview Plantation"
 
 # Landing Page theme from https://themes.gohugo.io/landing-page-hugo/
-theme = "landing-page"
+#theme = "landing-page"
 #theme = "hugo-strata-theme"
+theme = "startbootstrap-clean-blog"
 
 [params]
-    description = "Lakeview Plantation Homeowners Association member site"
-    custom_css = ["css/local.css"]
+    DateForm = "Mon, Jan 2, 2006"
+    Author = "Susan Murphy"
+    Description = "Lakeview Plantation Homeowners Association member site"
 
 #[[params.social]]
 #    title = "email"
@@ -28,14 +30,9 @@ theme = "landing-page"
 #    icon = "linkedin"
 #    url = "http://linkedin.com/in/yourusername"
 [[menu.main]]
-    name = "About"
-    url  = "about"
+    name = "Home"
+    url  = "/"
     weight = 5
-
-[[menu.main]]
-    name = "Blog"
-    url  = "post/"
-    weight = 10
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
